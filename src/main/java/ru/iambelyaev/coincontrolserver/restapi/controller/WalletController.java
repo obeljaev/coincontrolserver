@@ -10,6 +10,7 @@ import ru.iambelyaev.coincontrolserver.restapi.service.WalletService;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api/v1")
 public class WalletController {
     private final WalletService WalletService;
